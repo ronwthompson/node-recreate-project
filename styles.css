@@ -109,7 +109,7 @@ footer p {
 	padding-top: 10px;
 }
 
-.mainCont, .belowPic {
+.belowPic {
 	margin-top: 20px;
 }
 
@@ -122,6 +122,23 @@ footer p {
 .brandName {
 	font-size: 2em;
 	font-weight: bold;
+}
+
+.cityBack {
+  text-align: center;
+  height: 280px;
+  background-image: url("background.jpg");
+  background-position: repeat;
+  background-repeat: no-repeat; 
+}
+
+.cityBack img {
+  border: 20px solid transparent;
+  max-width: 100%;
+}
+
+.cityBack img:hover {
+  border: 20px solid #43853d;
 }
 
 .row {
