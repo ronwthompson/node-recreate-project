@@ -14,16 +14,11 @@ nav {
 }
 
 footer {
-	position: absolute;
 	width: 100%;
-	height: 50px;
+	height: 200px;
 	bottom: 0;
-	background-color: #999999;
-  color: #222222; 
-}
-
-footer p {
-	line-height: 3em;
+	background-color: #333333;
+  color: #FFFFFF; 
 }
 
 nav ul li {
@@ -52,11 +47,6 @@ h3 {
 	font-weight: bold;
 	margin-bottom: 10px;
 }
-
-footer p {
-	margin-left: 20px;
-}
-
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -128,7 +118,7 @@ footer p {
   text-align: center;
   height: 280px;
   background-image: url("background.jpg");
-  background-position: repeat;
+  background-position: center;
   background-repeat: no-repeat; 
 }
 
@@ -139,6 +129,161 @@ footer p {
 
 .cityBack img:hover {
   border: 20px solid #43853d;
+  cursor: pointer;
+}
+
+#descEtc {
+  padding: 30px 50px;  
+  text-align: center;
+}
+
+.nodeDesc {
+  font-size: 1.25em;
+  line-height: 1.5;
+}
+
+.secUpd {
+  font-size: 1.6em;
+  background-color: #eaf5e9;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.greenHover {
+  color: #43853d;
+  text-decoration: none;
+}
+
+.greenHover:hover {
+  color: #FFFFFF;
+  background-color: #43853d;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#download {
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+.darkBg {
+  background-color: #026e00;
+  border-radius: 3px;
+  color: #FFFFFF;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.darkBg:hover {
+  cursor: pointer;
+  background-color: #43853d;
+}
+
+.bigger {
+  font-size: 1.8em;
+}
+
+.smaller {
+  padding-top: 10px;
+  font-size: 1em;
+}
+
+.miniMenu {
+  margin-top: 10px;
+}
+
+.miniMenu a {
+  color: #51744e;
+  font-size: 0.9em;
+}
+
+.miniMenu li {
+  display: inline;
+}
+
+.miniMenu li:not(:first-child)::before {
+  content: '|';
+  padding-right: 0.2em;
+  color: #999999;
+  font-size: 1.2em;
+}
+
+.wid350 {
+  position: relative;
+  max-width: 350px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.wid250 {
+  position: relative;
+  max-width: 250px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.LTSsched {
+  margin-top: 25px;
+  font-size: 1.3em;
+}
+
+#lfcp {
+  margin-top: 15px;
+  height: 15px;
+}
+
+#footerDiv {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#footerDiv2 {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 0.9em;
+}
+
+#copyright {
+  line-height: 4;
+}
+
+footer a {
+  color: #CCCCCC;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  margin-top: 10px;
+}
+
+footer ul a {
+  font-size: 0.9em;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li:not(:first-child)::before {
+  content: '|';
+  padding-right: 0.2em;
+  color: #CCCCCC;
+  font-size: 1.2em;
+}
+
+#alignRight {
+  text-align: right;
+}
+
+.technical {
+  line-height: 1.7;
 }
 
 .row {
